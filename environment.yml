@@ -1,0 +1,15 @@
+name: fl_mpi
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - mpi4py
+  - openmpi
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - pytorch
+  - pip
+  - pip:
+      - torch  # fallback if PyTorch from conda-forge fails
